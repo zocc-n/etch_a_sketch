@@ -2,22 +2,19 @@
     box-sizing: border-box;
 }
 
-html, body{
+body{
     background-color: darkslategray;
-    min-height: 100vh;
-    margin: 0;
 }
 
 main{
-    min-height: 100vh;
-    margin: 0;
+    display: grid;
+    height: 700px;
+    width: 700px;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
 }
 
 .field{
+    background-color: crimson;
     border: 1px solid black;
-    height: 25vh;
-    width: 25%;
-    display: inline-block;
 }
-
-

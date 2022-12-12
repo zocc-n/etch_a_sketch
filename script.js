@@ -25,3 +25,8 @@ function changeSquareNum(){
 }
 
 drawSquares(16);
+
+// Known bug:
+// NumOfSquares is actually number of rows/collumns.
+// User can select odd number of squares which should be impossible.
+// *will be fixed in next version
